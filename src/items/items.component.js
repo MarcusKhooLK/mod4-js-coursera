@@ -6,11 +6,11 @@
         templateUrl: 'src/items/items.template.html',
         controller: ItemsCompController,
         bindings: {
-            menuItems: '<'
+            list: '<'
         }
     });
 
     function ItemsCompController() {
-        const $ctrl = this;
+        const ctrl = this;
     }
 })();
